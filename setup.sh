@@ -1,6 +1,6 @@
 #!/bin/bash/
 
-#Function To Display Starting TUI 
+#Function to display starting TUI 
 start(){
 dialog --title "Hadoop Installation Process" --backtitle "BIG DATA HADOOP" --msgbox\
  "Press Ok To Continue!!!" 10 50 ; 
