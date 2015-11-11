@@ -38,11 +38,11 @@ case "$ch" in
 	bash clientInterface.sh
 ;;
 6)
-	processJob.sh
-	bash clientInterface.sh
+	userJob.sh
 ;;
 7)
 	umount /home/$USER
+	exit 
 ;;	
 esac
 
